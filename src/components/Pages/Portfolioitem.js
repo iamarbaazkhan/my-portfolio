@@ -7,7 +7,7 @@ class PortfolioItem extends Component {
         <div className="portfolio-item">
           <a
             className="portfolio-link"
-            
+            href="/#"
           >
             <div className="portfolio-hover">
               <div className="portfolio-hover-content"></div>
