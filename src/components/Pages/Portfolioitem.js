@@ -7,8 +7,7 @@ class PortfolioItem extends Component {
         <div className="portfolio-item">
           <a
             className="portfolio-link"
-            data-toggle="modal"
-            to="#portfolioModal2"
+            
           >
             <div className="portfolio-hover">
               <div className="portfolio-hover-content"></div>

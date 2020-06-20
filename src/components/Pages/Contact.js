@@ -10,9 +10,9 @@ const Contact=props=>(
                             <a href="mailto:arbaazansarkhan98@gmail.com" className="emailme" >arbaazansarkhan98@gmail.com</a>
                             
                         </div>
-                        <a class="btn  mx-2" href="https://www.linkedin.com/in/arbaazansarkhan/" target="_blank"><i class="fab fa-linkedin-in "></i></a>
-                <a class="btn  mx-2" href="https://github.com/iamarbaazkhan" target="_blank"><i class="fab fa-github "></i></a>
-                <a class="btn   mx-2" href="https://www.instagram.com/arbaazkhan25/" target="_blank"><i class="fab fa-instagram" style={{color:'black'}}></i></a>
+                        <a class="btn  mx-2" href="https://www.linkedin.com/in/arbaazansarkhan/" ><i class="fab fa-linkedin-in "></i></a>
+                <a class="btn  mx-2" href="https://github.com/iamarbaazkhan"><i class="fab fa-github "></i></a>
+                <a class="btn   mx-2" href="https://www.instagram.com/arbaazkhan25/"><i class="fab fa-instagram" style={{color:'black'}}></i></a>
                 
 					</div>
 

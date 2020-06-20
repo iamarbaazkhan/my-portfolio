@@ -17,7 +17,7 @@ const About=props=>(
                </div>
             </div>
             <div className="col-md-6 img-section">
-            <img  className="devabout" src={ require('../assets/img/devabout.svg') } />
+            <img  className="devabout" src={ require('../assets/img/devabout.svg') }  alt="About me"/>
 
             </div>
         </div>
