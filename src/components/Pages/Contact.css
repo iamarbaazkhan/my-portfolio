@@ -1,0 +1,22 @@
+.emailme{
+    font-size:2rem;
+    text-decoration:none;
+    color:black;
+    margin-bottom: 3rem;
+}
+
+.emailme:hover{
+    text-decoration: none;
+}
+
+
+@media (max-width: 600px) {
+   
+    .emailme{
+        font-size:1rem;
+        text-decoration:none;
+        color:black;
+        margin-bottom: 3rem;
+    }
+
+}

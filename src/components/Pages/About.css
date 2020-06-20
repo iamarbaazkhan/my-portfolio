@@ -1,0 +1,44 @@
+.row{
+    width:100%;
+    padding:2rem;
+}
+
+.devabout{
+    width:100%;
+    
+}
+
+.aboutme{
+    line-height:2rem;
+    font-size:1.2rem;
+}
+
+.btn-resume{
+    width:100%;
+    max-width:200px;
+    align-items: center;
+    justify-content: center;
+    border-radius:25px;
+    text-align: center;
+    padding:0.5rem;
+    color:white;
+    background-color:#521751;
+}
+
+.btn-parent{
+    margin:auto;
+    text-align: center;
+    margin-top:2rem;
+}
+
+@media (max-width:600px){
+    .aboutme{
+        line-height:rem;
+        font-size:1rem;
+    }
+
+    .img-section{
+        display: none;
+    }
+
+}
