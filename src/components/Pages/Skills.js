@@ -1,7 +1,7 @@
 import React from "react";
 
 const skills = (props) => (
-  <div className="py-5 bg-light">
+  <section className="py-5 page-section bg-light">
     <div className="text-center">
       <h2 className="section-heading text-uppercase">SKILLS</h2>
     </div>
@@ -45,7 +45,7 @@ const skills = (props) => (
         </div>
       </div>
     </div>
-  </div>
+  </section>
 );
 
 export default skills;
