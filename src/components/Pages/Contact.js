@@ -19,7 +19,7 @@ const Contact = (props) => (
       <a class="btn  mx-2" href="https://github.com/iamarbaazkhan">
         <i class="fab fa-github "></i>
       </a>
-      <a class="btn   mx-2" href="https://www.instagram.com/">
+      <a class="btn   mx-2" href="https://www.instagram.com/arbaaz.khan98">
         <i class="fab fa-instagram" style={{ color: "black" }}></i>
       </a>
     </div>

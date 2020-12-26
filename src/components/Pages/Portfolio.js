@@ -11,7 +11,7 @@ import img5 from "../assets/img/giftsoln.png";
 const portfolio = [
   {
     title: "Patent  Booking Website",
-    subtitle: "Tech Stack : Wordpress, Html5, Css3",
+    subtitle: "Tech Stack : Wordpress",
     image: img1,
     link: (
       <a href="https://ipfa.in/" className="visit">
@@ -21,7 +21,7 @@ const portfolio = [
   },
   {
     title: "CCTV Dealers Website",
-    subtitle: "Tech Stack : Wordpress, Html5, Css3",
+    subtitle: "Tech Stack :Html5, Css3,Jquery",
     image: img3,
     link: (
       <a href="https://trinetratechnologies.co.in/" className="visit">

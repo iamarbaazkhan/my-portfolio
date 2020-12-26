@@ -24,7 +24,7 @@ const header = (props) => (
         </a>
         <a
           class="btn btn-instagram btn-social mx-3"
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/arbaaz.khan98"
           target="_blank"
           rel="noopener noreferrer"
         >
