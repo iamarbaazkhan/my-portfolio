@@ -20,7 +20,7 @@ const skills = (props) => (
           <a href="#!">
             <img
               className="img-fluid d-block mx-auto"
-              src="assets/img/logos/wordpress.png"
+              src="assets/img/logos/bootstrap.png"
               alt=""
             />
           </a>
@@ -38,7 +38,7 @@ const skills = (props) => (
           <a href="#!">
             <img
               className="img-fluid d-block mx-auto"
-              src="assets/img/logos/bootstrap.png"
+              src="assets/img/logos/wordpress.png"
               alt=""
             />
           </a>

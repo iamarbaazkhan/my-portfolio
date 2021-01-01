@@ -13,7 +13,7 @@ const Contact = (props) => (
           arbaazansarkhan98@gmail.com
         </a>
       </div>
-      <a class="btn  mx-2" href="https://www.linkedin.com/in/arbaazansarkhan/">
+      {/* <a class="btn  mx-2" href="https://www.linkedin.com/in/arbaazansarkhan/">
         <i class="fab fa-linkedin-in "></i>
       </a>
       <a class="btn  mx-2" href="https://github.com/iamarbaazkhan">
@@ -21,7 +21,7 @@ const Contact = (props) => (
       </a>
       <a class="btn   mx-2" href="https://www.instagram.com/arbaaz.khan98">
         <i class="fab fa-instagram" style={{ color: "black" }}></i>
-      </a>
+      </a> */}
     </div>
   </section>
 );
