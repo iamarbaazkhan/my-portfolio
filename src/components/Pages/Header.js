@@ -4,7 +4,7 @@ const header = (props) => (
   <header className="masthead">
     <div className="container">
       <div className="masthead-subheading">Hello, I'm Arbaaz</div>
-      <div className="masthead-heading">I am a Front-End Web developer.</div>
+      <div className="masthead-heading">Web developer</div>
       <div className="d-flex justify-content-center">
         <a
           class="btn btn-primary btn-social mx-3"
