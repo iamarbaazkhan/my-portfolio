@@ -38,7 +38,16 @@ const skills = (props) => (
           <a href="#!">
             <img
               className="img-fluid d-block mx-auto"
-              src="assets/img/logos/wordpress.png"
+              src="assets/img/logos/wordpress.svg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div className="col-md-3 col-sm-6 my-3">
+          <a href="#!">
+            <img
+              className="img-fluid d-block mx-auto"
+              src="assets/img/logos/sql-img.svg"
               alt=""
             />
           </a>
