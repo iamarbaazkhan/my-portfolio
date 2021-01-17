@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Contact = (props) => (
   <section class="page-section" id="contact">
@@ -8,11 +9,13 @@ const Contact = (props) => (
       <h3 class="section-subheading text-muted">
         For any project related queries, you can find me at:
       </h3>
-      <div className="d-flex justify-content-center ">
-        <a href="mailto:arbaazansarkhan98@gmail.com" className="emailme">
-          arbaazansarkhan98@gmail.com
-        </a>
-      </div>
+      <ScrollAnimation animateIn="flipInY" animateOut="flipOutY">
+        <div className="d-flex justify-content-center ">
+          <a href="mailto:arbaazansarkhan98@gmail.com" className="emailme">
+            arbaazansarkhan98@gmail.com
+          </a>
+        </div>
+      </ScrollAnimation>
       {/* <a class="btn  mx-2" href="https://www.linkedin.com/in/arbaazansarkhan/">
         <i class="fab fa-linkedin-in "></i>
       </a>

@@ -5,10 +5,7 @@ class PortfolioItem extends Component {
     return (
       <div className="col-lg-4 col-sm-6 mb-4">
         <div className="portfolio-item">
-          <a
-            className="portfolio-link"
-            href="/#"
-          >
+          <a className="portfolio-link" href="/#">
             <div className="portfolio-hover">
               <div className="portfolio-hover-content"></div>
             </div>
@@ -22,7 +19,6 @@ class PortfolioItem extends Component {
             <div className="portfolio-caption-subheading text-muted">
               {this.props.link}
             </div>
-             
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Portfolioitem from "./Portfolioitem.js";
+import ScrollAnimation from "react-animate-on-scroll";
 import "./Portfolio.css";
 //importing image
 import img1 from "../assets/img/ipfacompany.png";
@@ -43,21 +44,23 @@ const portfolio = [
 class Portfolio extends Component {
   render() {
     return (
-      <section className="page-section bg-light" id="portfolio">
-        <div className="container">
-          <div className="text-center">
-            <h2 className="section-heading text-uppercase">Portfolio</h2>
-            <h3 className="section-subheading text-muted">
-              Projects I have completed till now
-            </h3>
+      <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+        <section className="page-section bg-light" id="portfolio">
+          <div className="container">
+            <div className="text-center">
+              <h2 className="section-heading text-uppercase">Portfolio</h2>
+              <h3 className="section-subheading text-muted">
+                Projects I have completed till now
+              </h3>
+            </div>
+            <div className="row">
+              {portfolio.map((item, index) => {
+                return <Portfolioitem {...item} key={index} />;
+              })}
+            </div>
           </div>
-          <div className="row">
-            {portfolio.map((item, index) => {
-              return <Portfolioitem {...item} key={index} />;
-            })}
-          </div>
-        </div>
-      </section>
+        </section>
+      </ScrollAnimation>
     );
   }
 }
