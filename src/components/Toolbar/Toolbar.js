@@ -35,16 +35,7 @@ const toolbar = (props) => (
               About
             </Link>
           </li>
-          <li>
-            <Link
-              to="portfolio"
-              smooth={true}
-              duration={1000}
-              style={{ color: "#fff", textDecoration: "none" }}
-            >
-              Portfolio
-            </Link>
-          </li>
+          
           <li>
             <Link
               to="contact"
