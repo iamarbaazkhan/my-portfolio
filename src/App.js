@@ -6,7 +6,6 @@ import SideDrawer from './components/SideDrawer/SideDrawer.js';
 import BackDrop from './components/Backdrop/Backdrop.js';
 // Importing Pages 
 import About from './components/Pages/About.js'
-import Portfolio from './components/Pages/Portfolio.js';
 import Header from './components/Pages/Header.js';
 import Contact from './components/Pages/Contact.js';
 import Skills from './components/Pages/Skills.js';
@@ -41,7 +40,7 @@ class App extends Component{
          <Header/>
          <About/>
          <Skills/>
-         <Portfolio/>
+         
          <Contact/>
        </div>
     );
