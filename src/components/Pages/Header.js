@@ -9,7 +9,7 @@ const header = (props) => (
         <div className="masthead-subheading">Hello, I'm Arbaaz</div>
       </ScrollAnimation>
       <ScrollAnimation animateIn="flipInY" animateOut="flipOutY">
-        <div className="masthead-heading">Web developer</div>
+        <div className="masthead-heading">Front-end Web developer</div>
       </ScrollAnimation>
       <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
         <div className="d-flex justify-content-center">
