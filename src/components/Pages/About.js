@@ -14,13 +14,9 @@ const About = (props) => (
       <div className="row ">
         <div className="col-md-6 text-section">
           <div className="aboutme">
-            Experienced Web Developer with a demonstrated history of working in
-            the information technology and services industry. Mostly I have
-            worked on Front-end web development and I enjoy creating things that
-            live on the internet, whether that be websites, applications, or
-            anything in between. My goal is to always build products that
-            provide pixel-perfect, performant experiences.
+            Experienced web developer with 3+ years of development experience using different frameworks and content management systems (CMS). I have been responsible for designing and developing new sites and web applications as well as maintaining and rehabilitating existing sites. Excellent planning, organizational and communication skills. Self-reliant to perform analysis and make recommendations. Efficient multi-tasker who can complete multiple projects under strict deadlines.
           </div>
+  
         </div>
         <div className="col-md-6 img-section">
           <img
