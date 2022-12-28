@@ -10615,7 +10615,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #00008b;
-  background-color: #f8f9fa !important;
+  background-color: #242B2E !important;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10625,13 +10625,13 @@ header.masthead .masthead-subheading {
   font-size: 66px;
   line-height: 4.25rem;
   margin-bottom: 25px;
-  font-family: cursive;
+  font-family: Optima, serif;
 }
 header.masthead .masthead-heading {
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 2rem;
-  font-family: cursive;
+  font-family: Optima, serif;
 }
 
 @media (min-width: 768px) {
