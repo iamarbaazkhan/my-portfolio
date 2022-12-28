@@ -40,8 +40,6 @@ class App extends Component{
          <Header/>
          <About/>
          <Skills/>
-         
-         <Contact/>
        </div>
     );
   }
