@@ -47,9 +47,6 @@ const skills = (props) => (
           </div>
           
         </div>
-  <div className="row">
-     <h1>Designed & Built by Arbaaz Khan✨</h1>  
-</div>
       </div>
     </section>
   </ScrollAnimation>
